@@ -1,0 +1,91 @@
+@model Cumulative01.Models.Teacher
+
+@{
+    ViewData["Title"] = "Update Teacher";
+}
+
+<div class="container mt-4">
+    <h2>Update Teacher</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <form id="updateTeacherForm">
+                <input type="hidden" id="teacherId" value="@Model.TeacherId" />
+                
+                <div class="form-group">
+                    <label for="teacherFirstName">First Name</label>
+                    <input type="text" class="form-control" id="teacherFirstName" value="@Model.TeacherFirstName" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="teacherLastName">Last Name</label>
+                    <input type="text" class="form-control" id="teacherLastName" value="@Model.TeacherLastName" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="employeeId">Employee ID</label>
+                    <input type="text" class="form-control" id="employeeId" value="@Model.EmployeeID" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="hireDate">Hire Date</label>
+                    <input type="date" class="form-control" id="hireDate" value="@Model.HireDate.ToString("yyyy-MM-dd")" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="salary">Salary</label>
+                    <input type="number" step="0.01" class="form-control" id="salary" value="@Model.Salary" required>
+                </div>
+
+                <button type="submit" class="btn btn-primary mt-3">Update Teacher</button>
+            </form>
+            <div id="updateMessage" class="alert mt-3" style="display: none;"></div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('#updateTeacherForm').on('submit', function (e) {
+                e.preventDefault();
+                
+                const teacherId = $('#teacherId').val();
+                const teacherData = {
+                    teacherId: parseInt(teacherId),
+                    teacherFirstName: $('#teacherFirstName').val(),
+                    teacherLastName: $('#teacherLastName').val(),
+                    employeeID: $('#employeeId').val(),
+                    hireDate: $('#hireDate').val(),
+                    salary: parseFloat($('#salary').val())
+                };
+
+                $.ajax({
+                    url: `/api/TeacherAPI/UpdateTeacher/${teacherId}`,
+                    type: 'PUT',
+                    contentType: 'application/json',
+                    data: JSON.stringify(teacherData),
+                    success: function (response) {
+                        $('#updateMessage')
+                            .removeClass('alert-danger')
+                            .addClass('alert-success')
+                            .text('Teacher updated successfully!')
+                            .show();
+                        
+                        // Redirect to the list page after 2 seconds
+                        setTimeout(function() {
+                            window.location.href = '/TeacherPage/List';
+                        }, 2000);
+                    },
+                    error: function (xhr) {
+                        const message = xhr.responseJSON?.message || 'Error updating teacher';
+                        $('#updateMessage')
+                            .removeClass('alert-success')
+                            .addClass('alert-danger')
+                            .text(message)
+                            .show();
+                    }
+                });
+            });
+        });
+    </script>
+} 

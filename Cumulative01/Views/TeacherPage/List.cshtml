@@ -1,0 +1,27 @@
+﻿@model IEnumerable<Cumulative01.Models.Teacher>
+
+<h1>Teacher's List</h1>
+<p>There are around @Model.Count() Teachers in the School</p>
+
+<a href="/new" class="btn btn-primary mb-3">Add a Teacher into the Database</a>
+
+<form action="/TeacherPage/List" method="GET" class="mb-4">
+    <div class="input-group">
+        <input type="text" name="SearchKey" class="form-control" placeholder="Search teachers...">
+        <div class="input-group-append">
+            <input type="submit" value="Search" class="btn btn-outline-secondary">
+        </div>
+    </div>
+</form>
+
+<div class="list-group">
+    @foreach (Teacher teacher in Model)
+    {
+        <div class="list-group-item d-flex justify-content-between align-items-center">
+            <a href="/TeacherPage/Show/@teacher.TeacherId">@teacher.TeacherFirstName @teacher.TeacherLastName</a>
+            <div>
+                <a href="/TeacherPage/Update/@teacher.TeacherId" class="btn btn-sm btn-primary">Edit</a>
+            </div>
+        </div>
+    }
+</div>

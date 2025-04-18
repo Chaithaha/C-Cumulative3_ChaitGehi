@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Chait\\Documents\\GitHub\\C-Cumalitive2_ChaitGehi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E4281198-6141-4486-8217-9FC922BCA090}|Cumulative01\\Cumulative01.csproj|c:\\users\\chait\\documents\\github\\c-cumalitive2_chaitgehi\\cumulative01\\controllers\\teacherpagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4281198-6141-4486-8217-9FC922BCA090}|Cumulative01\\Cumulative01.csproj|solutionrelative:cumulative01\\controllers\\teacherpagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4281198-6141-4486-8217-9FC922BCA090}|Cumulative01\\Cumulative01.csproj|c:\\users\\chait\\documents\\github\\c-cumalitive2_chaitgehi\\cumulative01\\controllers\\teacherapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4281198-6141-4486-8217-9FC922BCA090}|Cumulative01\\Cumulative01.csproj|solutionrelative:cumulative01\\controllers\\teacherapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4281198-6141-4486-8217-9FC922BCA090}|Cumulative01\\Cumulative01.csproj|c:\\users\\chait\\documents\\github\\c-cumalitive2_chaitgehi\\cumulative01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4281198-6141-4486-8217-9FC922BCA090}|Cumulative01\\Cumulative01.csproj|solutionrelative:cumulative01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4281198-6141-4486-8217-9FC922BCA090}|Cumulative01\\Cumulative01.csproj|c:\\users\\chait\\documents\\github\\c-cumalitive2_chaitgehi\\cumulative01\\models\\schooldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4281198-6141-4486-8217-9FC922BCA090}|Cumulative01\\Cumulative01.csproj|solutionrelative:cumulative01\\models\\schooldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4281198-6141-4486-8217-9FC922BCA090}|Cumulative01\\Cumulative01.csproj|c:\\users\\chait\\documents\\github\\c-cumalitive2_chaitgehi\\cumulative01\\views\\teacherpage\\deleteconfirmresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4281198-6141-4486-8217-9FC922BCA090}|Cumulative01\\Cumulative01.csproj|solutionrelative:cumulative01\\views\\teacherpage\\deleteconfirmresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4281198-6141-4486-8217-9FC922BCA090}|Cumulative01\\Cumulative01.csproj|c:\\users\\chait\\documents\\github\\c-cumalitive2_chaitgehi\\cumulative01\\views\\teacherpage\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4281198-6141-4486-8217-9FC922BCA090}|Cumulative01\\Cumulative01.csproj|solutionrelative:cumulative01\\views\\teacherpage\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TeacherAPIController.cs",
+              "DocumentMoniker": "C:\\Users\\Chait\\Documents\\GitHub\\C-Cumalitive2_ChaitGehi\\Cumulative01\\Controllers\\TeacherAPIController.cs",
+              "RelativeDocumentMoniker": "Cumulative01\\Controllers\\TeacherAPIController.cs",
+              "ToolTip": "C:\\Users\\Chait\\Documents\\GitHub\\C-Cumalitive2_ChaitGehi\\Cumulative01\\Controllers\\TeacherAPIController.cs",
+              "RelativeToolTip": "Cumulative01\\Controllers\\TeacherAPIController.cs",
+              "ViewState": "AgIAAEUBAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T23:31:18.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Chait\\Documents\\GitHub\\C-Cumalitive2_ChaitGehi\\Cumulative01\\Program.cs",
+              "RelativeDocumentMoniker": "Cumulative01\\Program.cs",
+              "ToolTip": "C:\\Users\\Chait\\Documents\\GitHub\\C-Cumalitive2_ChaitGehi\\Cumulative01\\Program.cs",
+              "RelativeToolTip": "Cumulative01\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T22:17:22.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\Chait\\Documents\\GitHub\\C-Cumalitive2_ChaitGehi\\Cumulative01\\Views\\TeacherPage\\List.cshtml",
+              "RelativeDocumentMoniker": "Cumulative01\\Views\\TeacherPage\\List.cshtml",
+              "ToolTip": "C:\\Users\\Chait\\Documents\\GitHub\\C-Cumalitive2_ChaitGehi\\Cumulative01\\Views\\TeacherPage\\List.cshtml",
+              "RelativeToolTip": "Cumulative01\\Views\\TeacherPage\\List.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T22:17:08.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DeleteConfirmResult.cshtml",
+              "DocumentMoniker": "C:\\Users\\Chait\\Documents\\GitHub\\C-Cumalitive2_ChaitGehi\\Cumulative01\\Views\\TeacherPage\\DeleteConfirmResult.cshtml",
+              "RelativeDocumentMoniker": "Cumulative01\\Views\\TeacherPage\\DeleteConfirmResult.cshtml",
+              "ToolTip": "C:\\Users\\Chait\\Documents\\GitHub\\C-Cumalitive2_ChaitGehi\\Cumulative01\\Views\\TeacherPage\\DeleteConfirmResult.cshtml",
+              "RelativeToolTip": "Cumulative01\\Views\\TeacherPage\\DeleteConfirmResult.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T22:16:07.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SchoolDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Chait\\Documents\\GitHub\\C-Cumalitive2_ChaitGehi\\Cumulative01\\Models\\SchoolDbContext.cs",
+              "RelativeDocumentMoniker": "Cumulative01\\Models\\SchoolDbContext.cs",
+              "ToolTip": "C:\\Users\\Chait\\Documents\\GitHub\\C-Cumalitive2_ChaitGehi\\Cumulative01\\Models\\SchoolDbContext.cs",
+              "RelativeToolTip": "Cumulative01\\Models\\SchoolDbContext.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA8wCQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T22:15:54.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TeacherPageController.cs",
+              "DocumentMoniker": "C:\\Users\\Chait\\Documents\\GitHub\\C-Cumalitive2_ChaitGehi\\Cumulative01\\Controllers\\TeacherPageController.cs",
+              "RelativeDocumentMoniker": "Cumulative01\\Controllers\\TeacherPageController.cs",
+              "ToolTip": "C:\\Users\\Chait\\Documents\\GitHub\\C-Cumalitive2_ChaitGehi\\Cumulative01\\Controllers\\TeacherPageController.cs",
+              "RelativeToolTip": "Cumulative01\\Controllers\\TeacherPageController.cs",
+              "ViewState": "AgIAAK8AAAAAAAAAAAAqwMUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T16:13:29.134Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
